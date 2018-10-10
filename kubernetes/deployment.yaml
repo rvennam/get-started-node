@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: get-started-node
-        image: <REGISTRY>/<NAMESPACE>/myapp:v1.0.0
+        image: <REGISTRY>/<NAMESPACE>/myapp:latest
         ports:
         - containerPort: 8080
         imagePullPolicy: Always
